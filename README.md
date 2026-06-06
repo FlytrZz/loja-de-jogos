@@ -1,4 +1,4 @@
-# loja-de-jogos
+# Loja de Jogos
 
 E-commerce de jogos feito em java integrado com banco de dados MySQL
 
@@ -6,23 +6,22 @@ E-commerce de jogos feito em java integrado com banco de dados MySQL
 - Java
 - POO
 - Listas e Coleções
-- Integração com Banco de dados(MySQL)
 - Tratamento de Erros
+- Interface Gráfica(AWT e Swing)
+- Integração com Banco de dados(MySQL)
+
 
 ## 📋 Funcionalidades
-- Receber um CEP digitado pelo usuário
-- Consultar a API do ViaCEP via HTTP
-- Deserializar o JSON da resposta com Gson para um record CEP
-- Converter o record para um objeto dadosCEP
-- Armazenar todos os CEPs buscados em uma lista
-- Tratar erro caso o CEP não seja encontrado
-- Repetir a busca até o usuário digitar "sair"
-- Exportar todos os CEPs buscados para um arquivo CEP.json ao encerrar
+- Cadastrar cliente com validação de CPF, email, nome e senha
+- Fazer login verificando email e senha no banco
+- Ver catálogo de 12 jogos exibidos com imagem e preço
+- Adicionar jogos ao carrinho com o total atualizado em tempo real
+- Pagar via PIX, Crédito ou Débito
+- Registrar a compra no banco de dados
+- Enviar email com confirmação automática ao se cadastrar
+- Mostrar/ocultar senha com checkbox na tela de login
 
 ## ▶️ Como executar
 1. Clone o repositório
 2. Abra no Eclipse
-3. Execute a classe Main
-
-## 📚 Aprendizados
-Como consumir uma API pública e tratar os erros do programa.
+3. Execute a classe telacadastro
